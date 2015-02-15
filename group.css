@@ -55,7 +55,9 @@ td{
 	border: 5px dashed white;
 	font-family:sans-serif;
 	}
-	
+.link a{
+	text-decoration:none;	
+}
 div#fixedfooter {
 	position:fixed;
 	bottom:0px;
