@@ -58,6 +58,9 @@ td{
 .link a{
 	text-decoration:none;	
 }
+.tableau{
+	margin-top:10px;
+}
 div#fixedfooter {
 	position:fixed;
 	bottom:0px;
