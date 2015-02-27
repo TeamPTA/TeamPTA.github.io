@@ -1,131 +1,139 @@
-<!DOCYTYPE html>
+<!DOCTYPE html>
+<title>HTML Tables</title>
 <head>
-	<!-- Header -->
-	<title>Group: PTA</title>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script src="hw2.js"></script>
-		<link type="text/css" rel="stylesheet" href="group.css"/>
-	</head>
-<body>
-	<!-- Top Purdue Banner -->
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+		<script type="text/javascript" src="myscript.js"></script>
+		<title>Result</title>
+</head>
 	<div id="fixedheader">
 		<div class="header"> <img id="PUbanner" src="https://www.purdue.edu/purdue/images/logo.png" />
 		</div>
-		<div id = "title" class="header">IE 590 Group: Planes, Trains, and Automobiles
+		<div id = "title" class="header">IE 590 - Data Visualization Theory and Practice
 		</div>
 	</div>
+<body>
+    <ul class="tabs">
+        <li class="links"><a href="#">Our Team</a></li>
+        <li class="links"><a href="#">Potential Data Sources</a></li>
+		<li class="links"><a href="#">Tableau Info Graphic</a></li>
+    </ul>
+    <div class="panes">
+        <div>
 	<!-- Introduction Data Table -->
 	<table id = "meetteam">
 		<th class = "tablehead" colspan="3">Meet the Team!</th>
             <tr>
                 <td class="first">Name:</td>
-                <td>Daniel West</td>
-		<td>Jeremy Black</td>
+                <td class="us">Daniel West</td>
+				<td class="us">Jeremy Black</td>
             </tr>
             <tr>
                 <td class="first">Education:</td>
                 <td>BSIE @ Purdue University</td>
-		<td>BSIE @ University of Michigan</td>
+				<td>BSIE @ University of Michigan</td>
             </tr>
             <tr>
                 <td class="first">Employment:</td>
                 <td class="second">Fiat Chrysler Automobiles</td>
-		<td class="second">The Boeing Company</td>
+				<td class="second">The Boeing Company</td>
             </tr>
             <tr>
                 <td class="first">Our Products:</td>
                 <td><a href="http://www.fcagroup.com/en-US/Pages/home.aspx">FCA</a></a></td>
-		<td><a href="https://www.youtube.com/watch?v=Fop6Qu2CN0E">777X</a></td>
+				<td><a href="https://www.youtube.com/watch?v=Fop6Qu2CN0E">777X</a></td>
             </tr>
             <tr>
                 <td class="first">Interests:</td>
-                <td>Looking to increase skill set and very interested in web development.</td>
-		<td>I do alot of analysis at work at primarily using Microsoft based products. Wanted to learn more about what else is out there.</td>
+                <td class="second">Looking to increase skill set and very interested in web development.</td>
+				<td class="second">I do alot of analysis at work at primarily using Microsoft based products. Wanted to learn more about what else is out there.</td>
             </tr>
             
 	</table>
+        </div>
+        <div>
 	<!-- Main Data Table -->
 	<table id = "datasets">
 		<th class = "tablehead" colspan="5">Potential Data Sets and Sources</th>
 		<tr>
-			<td>Number</td>
-			<td>Type</td>
-			<td>Source</td>
-			<td>Description</td>
-			<td>Why</td>
+			<td class="first">Number</td>
+			<td class="first">Type</td>
+			<td class="first">Source</td>
+			<td class="first">Description</td>
+			<td class="first">Why</td>
 		</tr>
 		<tr>
-			<td>1</td>
+			<td class="first">1</td>
 			<td>URL</td>
 			<td class="link"><a href="http://www.encyclopedia-titanica.org/titanic-passenger-list">Source</a></td>
 			<td>Titanic Information</td>
 			<td>Interesting look into the ill-fated voyage.</td>
 		</tr>
 		<tr>
-			<td>2</td>
-			<td>URL</td>
-			<td class="link"><a href="http://www.the-numbers.com/weekend-box-office-chart">Source</a></td>
-			<td>Recent Weekend Box Office Info!</td>
-			<td>See which movie is on top and whos not.</td>
+			<td class="first">2</td>
+			<td class="second">URL</td>
+			<td  class="second" class="link"><a href="http://www.the-numbers.com/weekend-box-office-chart">Source</a></td>
+			<td class="second">Recent Weekend Box Office Info!</td>
+			<td class="second">See which movie is on top and whos not.</td>
 		</tr>
 		<tr>
-			<td>3</td>
+			<td class="first">3</td>
 			<td>URL</td>
 			<td class="link"><a href="http://usatoday30.usatoday.com/sports/salaries/index.htm">Source</a></td>
 			<td>Sports Salaries</td>
 			<td>See who's making what in todays sports world.</td>
 		</tr>
 		<tr>
-			<td>4</td>
-			<td>URL</td>
-			<td class="link"><a href="http://www.cdc.gov/nchs/nis/data_files.htm">Source</a></td>
-			<td>US Vaccine Information</td>
-			<td>Get a look at precent for and against vaccines.</td>
+			<td class="first">4</td>
+			<td class="second">URL</td>
+			<td  class="second" class="link"><a href="http://www.cdc.gov/nchs/nis/data_files.htm">Source</a></td>
+			<td class="second">US Vaccine Information</td>
+			<td class="second">Get a look at precent for and against vaccines.</td>
 		</tr>
 		<tr>
-			<td>5</td>
+			<td class="first">5</td>
 			<td>CSV</td>
 			<td class="link"><a href="https://github.com/umbrae/reddit-top-2.5-million">Source</a></td>
 			<td>Top Reddit Posts</td>
 			<td>View of the most popular items on Reddit.com.</td>
 		</tr>
 		<tr>
-			<td>6</td>
-			<td>URL</td>
-			<td class="link"><a href="http://datahub.io/dataset/open-flights">Source</a></td>
-			<td>Airplane Flight Data</td>
-			<td>Interesting to see flight volume by airport, carrier, airplane model, on-time, etc.</td>
+			<td class="first">6</td>
+			<td class="second">URL</td>
+			<td class="second" class="link"><a href="http://datahub.io/dataset/open-flights">Source</a></td>
+			<td class="second">Airplane Flight Data</td>
+			<td class="second">Interesting to see flight volume by airport, carrier, airplane model, on-time, etc.</td>
 		</tr>
 		<tr>
-			<td>7</td>
+			<td class="first">7</td>
 			<td>URL</td>
 			<td class="link"><a href="http://imgur.com/gallery/fNeC6ec">Source</a></td>
 			<td>Historical data on Empires</td>
 			<td>Would be cool to do some more analytics with slicing and filtering if the dataset behind this available.</td>
 		</tr>
 		<tr>
-			<td>8</td>
-			<td>URL</td>
-			<td class="link"><a href="http://www.sportsclubstats.com/MLB.html">Source</a></td>
-			<td>Sports Data</td>
-			<td>Sports analytics over multiple years expanding on this current data set</td>
+			<td class="first">8</td>
+			<td class="second">URL</td>
+			<td class="second" class="link"><a href="http://www.sportsclubstats.com/MLB.html">Source</a></td>
+			<td class="second">Sports Data</td>
+			<td class="second">Sports analytics over multiple years expanding on this current data set</td>
 		</tr>
 		<tr>
-			<td>9</td>
+			<td class="first">9</td>
 			<td>URL</td>
 			<td class="link"><a href="http://claudelafleur.qc.ca/Scfam-failures.html">Source</a></td>
 			<td>Satellite Failure Data</td>
 			<td>There is a better data set out there and have an email to co-worker to find it. Would be interesting to see failures by company, rocket type, launch site, etc.</td>
 		</tr>
 		<tr>
-			<td>10</td>
-			<td>URL</td>
-			<td class="link"><a href="https://www.cia.gov/library/publications/the-world-factbook/">Source</a></td>
-			<td>Correlative analysis of World Nations</td>
-			<td>Would think lots of slices and Input/Ouput on different stats for world countries (e.g. Urban/Rural as it relates to GDP, Inflation rates vs. poverty level, etc.</td>
+			<td class="first">10</td>
+			<td class="second">URL</td>
+			<td class="second" class="link"><a href="https://www.cia.gov/library/publications/the-world-factbook/">Source</a></td>
+			<td class="second">Correlative analysis of World Nations</td>
+			<td class="second">Would think lots of slices and Input/Ouput on different stats for world countries (e.g. Urban/Rural as it relates to GDP, Inflation rates vs. poverty level, etc.</td>
 		</tr>
-	</table>
-	
+	</table>			
+        </div>
 	<!-- Jeremy Tableau Test-->
 	<div align="center" class="tableau"> 
 	<a class="link" href="https://public.tableausoftware.com/profile/jeremyb311#!/">Jeremy's Public Page</a></li>
@@ -133,7 +141,7 @@
 	<li><a href="https://public.tableausoftware.com/profile/jeremyb311#!/">My Tableau Public Page</a></li>
 	</div>
 	<!-- End Test -->
-	
-	<div id="fixedfooter"></div>
+    </div>
+<div id="fixedfooter"><img id="PUpete" src="http://purduefootball.weebly.com/uploads/2/4/8/0/24808719/462274278.png?220" /></div>
 </body>
 </html>
