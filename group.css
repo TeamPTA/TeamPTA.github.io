@@ -1,3 +1,11 @@
+body {
+	background-image:url("http://news.uns.purdue.edu/images/+2008/gateway-arch.jpg");
+	width:960px;
+	margin-top:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 div#fixedheader {
 	position:fixed;
 	top:0px;
@@ -5,68 +13,88 @@ div#fixedheader {
 	width:100%;
 	color:#CCC;
 	background:#333;
-	padding:15px;
+	padding:30px;
 }
 #PUbanner {
-	height:40px;
+	height:60px;
 	width:auto;
 }
 .header {
 	display:inline-block;
 }
 #title {
-	margin: 0 0 0 275px;
-	font-size: 225%;
+	margin:0 0 15px 220px;
+	font-size: 300%;
 	}
-body{
-	background-color:#F1ECD6;
-	}
-h2{
-	margin-top:200px;
-	}
-.tablehead{
-	font-size:150%;
-	}
-#meetteam{
-	margin-top: 90px;
-	width: 900px;
-	margin-left:auto;
-	margin-right:auto;
-	border: 5px dashed white;
-	padding: 10px;
-	font-family:sans-serif;
-	}
-td{
-	padding:5px;
-	text-align: center;
-	font-size:110%;
-	border: 1px dotted white;
-	}
-.first{
-	text-align: right;
-	font-size:125%;
-	}
-#datasets{
-	padding: 10px;
-	width:1000px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:20px;
-	border: 5px dashed white;
-	font-family:sans-serif;
-	}
-.link a{
-	text-decoration:none;	
+#PUpete {
+	height:60px;
+	width:auto;
 }
-.tableau{
-	margin-top:10px;
+ul {
+    margin-left:auto;
+    margin-bottom:auto;
+    width:100%;
+}
+.panes {
+	margin-left:auto;
+    margin-bottom:auto;
+	margin-top: 5px;
+    width:100%;
+}
+table {
+	border: 5px solid black;
+	border-radius: 10px;
+	background-color:white;
+	font-family:franklin gothic medium;
+	box-shadow: 10px 10px 5px #BFB495;
+}
+th {
+	font-size: 150%;
+}
+.us {
+    background-color:#D7C48F;
+	font-size:125%
+}
+}
+td {
+    border: 1px solid black;
+	padding:3px;
+}
+.first {
+    background-color:#BFB495;
+}
+.second {
+    background-color:#D7C48F;
+}
+.links {
+	font-size:130%;
+    padding:5px;
+    border: 5px solid black;
+    border-radius: 5px;
+    display:inline-block;
+    text-align: center;
+	background-color:white;
+    background: linear-gradient(top, #34696f, #2f5f63);
+	font-family:franklin gothic medium;
+	text-shadow: 2px 2px 2px grey;
+	box-shadow: 4px 4px 2px #BFB495;
+	margin:5px;
+}
+.links a { text-decoration:none;
+}
+.links a:link{color:black;}
+.tabs li:hover { 
+	background-color: tan;
+}
+a:visited{
+    color:black;
 }
 div#fixedfooter {
 	position:fixed;
 	bottom:0px;
 	left:0px;
 	width:100%;
-	color:#F1ECD6;
+	color:#CCC;
 	background:#333;
-	height:10px;
+	padding:8px;
 }
