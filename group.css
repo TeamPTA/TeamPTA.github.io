@@ -82,7 +82,11 @@ td {
 }
 .links a { text-decoration:none;
 }
-.links a:link{color:black;}
+.links a:link{color:black;
+}
+.links a:active:{
+	background-color: tan;
+}
 .tabs li:hover { 
 	background-color: tan;
 }
